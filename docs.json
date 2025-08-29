@@ -50,7 +50,8 @@
             "pages": [
               "correos/enviar_correo",
               "correos/correo",
-              "correos/prueba2"
+              "correos/prueba2",
+              "correos/prueba3"
             ]
           },
           {
