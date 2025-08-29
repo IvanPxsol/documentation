@@ -50,6 +50,12 @@
             "pages": [
               "correos/enviar_correo"
             ]
+          },
+          {
+            "group": "Prueba Correo",
+            "pages": [
+              "prueba_correo/correo"
+            ]
           }
         ]
       },
