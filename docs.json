@@ -51,6 +51,12 @@
               "correos/enviar_correo",
               "correos/correo"
             ]
+          },
+          {
+            "group": "Prueba Correo",
+            "pages": [
+              "prueba_correo/correo"
+            ]
           }
         ]
       },
