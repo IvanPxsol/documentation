@@ -48,23 +48,7 @@
           {
             "group": "Correos",
             "pages": [
-              "correos/enviar_correo",
-              "correos/correo",
-              "correos/prueba2",
-              "correos/prueba3",
-              "correos/prueba4"
-            ]
-          },
-          {
-            "group": "Prueba Correo",
-            "pages": [
-              "prueba_correo/correo"
-            ]
-          },
-          {
-            "group": "Correos Nuevos",
-            "pages": [
-              "correos_nuevos/prueba5"
+              "correos/enviar_correo"
             ]
           }
         ]
