@@ -60,6 +60,12 @@
             "pages": [
               "prueba_correo/correo"
             ]
+          },
+          {
+            "group": "Correos Nuevos",
+            "pages": [
+              "correos_nuevos/prueba5"
+            ]
           }
         ]
       },
