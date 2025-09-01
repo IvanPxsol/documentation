@@ -48,7 +48,8 @@
           {
             "group": "Correos",
             "pages": [
-              "correos/enviar_correo"
+              "correos/enviar_correo",
+              "correos/prueba"
             ]
           }
         ]
