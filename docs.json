@@ -44,13 +44,6 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          },
-          {
-            "group": "Correos",
-            "pages": [
-              "correos/enviar_correo",
-              "correos/prueba"
-            ]
           }
         ]
       },
