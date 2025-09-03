@@ -1,0 +1,159 @@
+---
+title: "Gestión de Escenarios de Tarifas"
+description: "Crea y aplica escenarios de tarifas predefinidas para gestionar precios estacionales o por eventos de manera eficiente."
+---
+
+## Gestión de Escenarios de Tarifas
+
+La funcionalidad de gestión de escenarios de tarifas te permite crear y aplicar conjuntos de tarifas predefinidas, conocidos como escenarios, a planes tarifarios específicos para rangos de fechas definidos. Esto facilita la gestión de precios estacionales o por eventos de manera masiva.
+
+### Interfaz de Escenarios
+
+La interfaz se divide en tres pestañas principales para la gestión de escenarios: "Escenarios aplicados", "Historial de cambios" y "Escenarios".
+
+<Frame>
+<img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921778_0_68b87fb2d51be.jpg" alt="Vista de las tres pestañas de la funcionalidad: Escenarios aplicados, Historial de cambios y Escenarios." />
+</Frame>
+
+*   **Escenarios aplicados:** Muestra una lista de los escenarios actualmente vigentes, incluyendo el rango de fechas, el nombre del escenario y el plan tarifario afectado. Puedes filtrar por categoría, tarifario e intervalo de fechas.
+
+    <Frame caption="Pestaña de Escenarios aplicados con un listado de temporadas y sus rangos de fechas correspondientes.">
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_1_68b87fb318d8c.jpg" alt="Pestaña de Escenarios aplicados con un listado de temporadas y sus rangos de fechas correspondientes." />
+    </Frame>
+
+*   **Historial de cambios:** Funciona como un registro de auditoría, mostrando todos los cambios realizados, el plan tarifario modificado, el usuario que realizó la acción, la fecha y el intervalo afectado.
+
+    <Frame caption="Pestaña de Historial de cambios con detalles de las modificaciones, incluyendo usuario y fecha.">
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_2_68b87fb32a43c.jpg" alt="Pestaña de Historial de cambios con detalles de las modificaciones, incluyendo usuario y fecha." />
+    </Frame>
+
+*   **Escenarios:** Contiene la lista de todos los escenarios creados, mostrando el nombre del escenario y las tarifas asignadas a cada tipo de habitación. Desde aquí, puedes crear y visualizar los escenarios.
+
+    <Frame caption="Pestaña de Escenarios mostrando diferentes temporadas (RACK 1, Media, Baja) con sus precios por tipo de habitación.">
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_3_68b87fb348b0a.jpg" alt="Pestaña de Escenarios mostrando diferentes temporadas (RACK 1, Media, Baja) con sus precios por tipo de habitación." />
+    </Frame>
+
+### Creación de un Nuevo Escenario
+
+Sigue estos pasos para crear un nuevo escenario de tarifas:
+
+<Steps>
+<Step title="Accede a la ventana de creación">
+  Abre la ventana de creación de escenarios.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_4_68b87fb35f126.jpg" alt="Ventana emergente titulada 'Crear Escenario' con campos para nombre, moneda y precios por tipo de habitación." />
+  </Frame>
+</Step>
+
+<Step title="Ingresa el nombre del escenario">
+  Ingresa un nombre identificativo para el escenario en el campo "Nombre".
+
+    <Frame>
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_5_68b87fb378f3e.jpg" alt="Campo de nombre del escenario siendo rellenado con 'RACK 2'." />
+    </Frame>
+</Step>
+
+<Step title="Selecciona la moneda">
+  Selecciona la moneda en la que se definirán los precios desde el menú desplegable "Moneda".
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_6_68b87fb38f2e8.jpg" alt="Selección de la moneda USD en el formulario de creación de escenario." />
+  </Frame>
+</Step>
+
+<Step title="Define los precios por habitación">
+  Completa los campos de "Precio" para cada una de las categorías de habitación listadas.
+
+    <Frame>
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_7_68b87fb39f13b.jpg" alt="Ingreso de los precios para las habitaciones Doble, Estándar y Triple." />
+    </Frame>
+</Step>
+
+<Step title="Guarda el escenario">
+  Presiona el botón "Guardar y cerrar" para finalizar la creación. El nuevo escenario se añadirá a la lista en la pestaña "Escenarios".
+
+    <Frame>
+    <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_8_68b87fb3b0a91.jpg" alt="El escenario recién creado, 'RACK 2 (USD)', aparece al principio de la lista de escenarios." />
+    </Frame>
+</Step>
+</Steps>
+
+### Aplicación de un Escenario
+
+Para aplicar un escenario a un plan tarifario:
+
+<Steps>
+<Step title="Accede a la ventana de aplicación">
+  Abre la ventana de aplicación de escenarios.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_9_68b87fb3c0e82.jpg" alt="Ventana emergente titulada 'Aplicar escenario' con campos para seleccionar tarifario, escenario y rango de fechas." />
+  </Frame>
+</Step>
+
+<Step title="Selecciona el plan tarifario">
+  En el campo "Tarifario", selecciona el plan tarifario base al que deseas aplicar el escenario. Solo se mostrarán planes tarifarios independientes (maestros).
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_10_68b87fb3dc355.jpg" alt="Selección del plan tarifario 'Flex (USD)' en el menú desplegable." />
+  </Frame>
+</Step>
+
+<Step title="Selecciona el escenario">
+  En el campo "Escenario", elige el escenario que deseas aplicar. La lista se filtrará automáticamente para mostrar solo los escenarios que coincidan con la moneda del plan tarifario seleccionado.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921779_11_68b87fb3eb716.jpg" alt="Selección del escenario 'RACK 2 (USD)' de la lista de escenarios disponibles." />
+  </Frame>
+</Step>
+
+<Step title="Define el rango de fechas">
+  Define el "Rango de fechas" de aplicación. Haz clic en el campo de fecha para abrir el selector de calendario.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_12_68b87fb409e25.jpg" alt="Selector de calendario abierto para definir el rango de fechas de aplicación del escenario." />
+  </Frame>
+</Step>
+
+<Step title="Añade los rangos de fechas">
+  Selecciona las fechas de inicio y fin del período. Si es necesario, puedes agregar múltiples rangos de fechas no consecutivos presionando el botón "Agregar fecha".
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_13_68b87fb4253e4.jpg" alt="Formulario de aplicación con dos rangos de fechas definidos: uno en junio y otro en julio." />
+  </Frame>
+</Step>
+
+<Step title="Revisa los cambios">
+  Una vez definidos todos los rangos, presiona "Revisar cambios".
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_14_68b87fb43a96c.jpg" alt="Cursor posicionado sobre el botón 'Revisar cambios' antes de hacer clic." />
+  </Frame>
+</Step>
+
+<Step title="Verifica los cambios">
+  Se mostrará una pantalla de "Revisión de cambios a aplicar". Verifica que los rangos de fecha y las nuevas tarifas sean correctos.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_15_68b87fb44fc51.jpg" alt="Pantalla de revisión que resume los rangos de fechas y las nuevas tarifas a aplicar por tipo de habitación." />
+  </Frame>
+</Step>
+
+<Step title="Aplica los cambios">
+  Para confirmar, presiona el botón "Aplicar cambios". El sistema procesará la solicitud y actualizará las tarifas para las fechas indicadas.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_16_68b87fb467f4d.jpg" alt="Notificación en la esquina inferior derecha que indica que la solicitud fue enviada y se está procesando." />
+  </Frame>
+</Step>
+
+<Step title="Verifica la aplicación">
+  Para verificar la correcta aplicación, regresa a la pestaña "Escenarios aplicados", donde los nuevos rangos aparecerán en la lista.
+
+  <Frame>
+  <img src="https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/03/screenshot_1756921780_17_68b87fb47aaeb.jpg" alt="Listado en la pestaña 'Escenarios aplicados' mostrando las nuevas fechas con el escenario 'RACK 2' aplicado al tarifario 'Flex'." />
+  </Frame>
+</Step>
+</Steps>
+
