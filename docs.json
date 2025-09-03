@@ -50,6 +50,12 @@
             "pages": [
               "correos/enviar_correo"
             ]
+          },
+          {
+            "group": "Escenarios",
+            "pages": [
+              "escenarios/escenarios_onboarding"
+            ]
           }
         ]
       },
