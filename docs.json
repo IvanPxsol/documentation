@@ -62,6 +62,12 @@
             "pages": [
               "habitaciones/configurar_tipo_habitaciones"
             ]
+          },
+          {
+            "group": "Informes",
+            "pages": [
+              "informes/crear_vista_personalizada"
+            ]
           }
         ]
       },
