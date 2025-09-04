@@ -68,6 +68,12 @@
             "pages": [
               "informes/crear_vista_personalizada"
             ]
+          },
+          {
+            "group": "Proveedores",
+            "pages": [
+              "proveedores/nota_credito_proveedores"
+            ]
           }
         ]
       },
