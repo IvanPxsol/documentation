@@ -76,6 +76,12 @@
             "pages": [
               "proveedores/nota_credito_proveedores"
             ]
+          },
+          {
+            "group": "Onboarding",
+            "pages": [
+              "onboarding/escenarios_onboarding"
+            ]
           }
         ]
       },
