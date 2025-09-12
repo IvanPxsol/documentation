@@ -49,7 +49,8 @@
             "group": "Correos",
             "pages": [
               "correos/enviar_correo",
-              "correos/conectar_cuenta_correo"
+              "correos/conectar_cuenta_correo",
+              "correos/conectar_cuenta"
             ]
           },
           {
