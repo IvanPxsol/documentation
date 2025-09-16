@@ -90,6 +90,10 @@
           {
             "group": "Demo",
             "pages": []
+          },
+          {
+            "group": "Prueba Hoteles",
+            "pages": []
           }
         ]
       },
