@@ -82,26 +82,6 @@
             "pages": [
               "onboarding/escenarios_onboarding"
             ]
-          },
-          {
-            "group": "Categoria de Prueba",
-            "pages": []
-          },
-          {
-            "group": "Prueba 2",
-            "pages": []
-          },
-          {
-            "group": "Prueba 5",
-            "pages": []
-          },
-          {
-            "group": "Prueba 6",
-            "pages": []
-          },
-          {
-            "group": "Cat Prueba",
-            "pages": []
           }
         ]
       },
