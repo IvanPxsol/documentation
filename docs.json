@@ -82,6 +82,12 @@
             "pages": [
               "onboarding/escenarios_onboarding"
             ]
+          },
+          {
+            "group": "Demo",
+            "pages": [
+              "categoria_de_prueba/undefined"
+            ]
           }
         ]
       },
