@@ -85,7 +85,9 @@
           },
           {
             "group": "Categoria Probando",
-            "pages": []
+            "pages": [
+              "categoria_probando/prueba"
+            ]
           }
         ]
       },
