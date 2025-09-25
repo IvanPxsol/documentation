@@ -92,7 +92,8 @@
           {
             "group": "Correos Prueba",
             "pages": [
-              "correos_prueba/enviar_correo"
+              "correos_prueba/enviar_correo",
+              "para probar si puedo hacer un pull desde n8n, luego borro esto"
             ]
           }
         ]
