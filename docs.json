@@ -91,7 +91,9 @@
           },
           {
             "group": "Correos Prueba",
-            "pages": []
+            "pages": [
+              "correos_prueba/enviar_correo"
+            ]
           }
         ]
       },
