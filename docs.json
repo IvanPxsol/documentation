@@ -91,9 +91,7 @@
           },
           {
             "group": "Correos Prueba",
-            "pages": [
-              "cambio en main para ver si hace el pull antes del merge y trae esto."
-            ]
+            "pages": []
           }
         ]
       },
