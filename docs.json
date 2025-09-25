@@ -88,6 +88,10 @@
             "pages": [
               "categoria_probando/prueba_para_ver_si_borra"
             ]
+          },
+          {
+            "group": "Correos Prueba",
+            "pages": []
           }
         ]
       },
