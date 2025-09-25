@@ -92,7 +92,9 @@
           },
           {
             "group": "Correos Prueba",
-            "pages": []
+            "pages": [
+              "si agrego algo"
+            ]
           }
         ]
       },
