@@ -86,15 +86,12 @@
           {
             "group": "Categoria Probando",
             "pages": [
-              "categoria_probando/prueba_para_ver_si_borra",
-              "prueba a ver si se agrega en el pr al hacer pull"
+              "categoria_probando/prueba_para_ver_si_borra"
             ]
           },
           {
             "group": "Correos Prueba",
-            "pages": [
-              "si agrego algo"
-            ]
+            "pages": []
           }
         ]
       },
