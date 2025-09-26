@@ -95,7 +95,9 @@
           },
           {
             "group": "Prueba Delete Pr",
-            "pages": []
+            "pages": [
+              "prueba_delete_pr/prueba_file"
+            ]
           }
         ]
       },
